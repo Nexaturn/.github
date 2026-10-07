@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="402" viewBox="0 0 1280 402" role="img" aria-label="How we work: Typed end to end, Measured, not assumed, Yours to run">
+  <style>
+    text { font-family: Inter, "Segoe UI", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; }
+    .rise { opacity: 0; animation: rise .9s cubic-bezier(.22,1,.36,1) forwards; }
+    .pulse { animation: pulse 6s ease-in-out infinite; }
+    @keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+    @keyframes pulse { 0%,100% { opacity: .5; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .rise { animation: none; opacity: 1; } .pulse { animation: none; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#087CF0"/><stop offset="55%" stop-color="#299EFF"/><stop offset="100%" stop-color="#59C7FF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.92" cy="0" r="0.75">
+      <stop offset="0%" stop-color="#087CF0" stop-opacity=".42"/><stop offset="100%" stop-color="#087CF0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A2347"/><stop offset="100%" stop-color="#061530"/>
+    </linearGradient>
+    <linearGradient id="topLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#59C7FF" stop-opacity="0"/><stop offset="50%" stop-color="#59C7FF" stop-opacity=".7"/><stop offset="100%" stop-color="#59C7FF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.1" fill="#7FD0FF"/></pattern>
+    <clipPath id="panel"><rect width="1280" height="402" rx="28"/></clipPath>
+    
+  </defs>
+  <g clip-path="url(#panel)">
+    <rect width="1280" height="402" fill="#020B1C"/>
+    <rect width="1280" height="402" fill="url(#glow)" class="pulse"/>
+    <rect width="1280" height="402" fill="url(#dots)" opacity=".07"/>
+    <g class="rise">
+      <rect x="56" y="46" width="22" height="3" rx="1.5" fill="url(#brand)"/>
+      <text x="88" y="53" font-size="13" font-weight="700" letter-spacing="4" fill="#59C7FF">HOW WE WORK</text>
+      <text x="56" y="94" font-size="36" font-weight="700" letter-spacing="-1" fill="#FFFFFF">Engineering you can hand over</text>
+    </g>
+    <g class="rise" style="animation-delay:0.15s">
+      <rect x="56.0" y="150" width="376.0" height="196" rx="20" fill="url(#cardFill)" stroke="#59C7FF" stroke-opacity=".16"/>
+      <rect x="80.0" y="150" width="328.0" height="1.5" fill="url(#topLine)"/>
+      <text x="84.0" y="216" font-size="44" font-weight="800" letter-spacing="-2" fill="url(#brand)">01</text>
+      <text x="84.0" y="262" font-size="21" font-weight="650" fill="#FFFFFF">Typed end to end</text>
+      <text x="84.0" y="294" font-size="15" fill="#A9C4E4">TypeScript from the database schema to</text>
+      <text x="84.0" y="316" font-size="15" fill="#A9C4E4">the rendered prop, so refactors stay safe.</text>
+    </g>
+    <g class="rise" style="animation-delay:0.25s">
+      <rect x="452.0" y="150" width="376.0" height="196" rx="20" fill="url(#cardFill)" stroke="#59C7FF" stroke-opacity=".16"/>
+      <rect x="476.0" y="150" width="328.0" height="1.5" fill="url(#topLine)"/>
+      <text x="480.0" y="216" font-size="44" font-weight="800" letter-spacing="-2" fill="url(#brand)">02</text>
+      <text x="480.0" y="262" font-size="21" font-weight="650" fill="#FFFFFF">Measured, not assumed</text>
+      <text x="480.0" y="294" font-size="15" fill="#A9C4E4">Real-session data drives performance and</text>
+      <text x="480.0" y="316" font-size="15" fill="#A9C4E4">product decisions, not lab scores.</text>
+    </g>
+    <g class="rise" style="animation-delay:0.35s">
+      <rect x="848.0" y="150" width="376.0" height="196" rx="20" fill="url(#cardFill)" stroke="#59C7FF" stroke-opacity=".16"/>
+      <rect x="872.0" y="150" width="328.0" height="1.5" fill="url(#topLine)"/>
+      <text x="876.0" y="216" font-size="44" font-weight="800" letter-spacing="-2" fill="url(#brand)">03</text>
+      <text x="876.0" y="262" font-size="21" font-weight="650" fill="#FFFFFF">Yours to run</text>
+      <text x="876.0" y="294" font-size="15" fill="#A9C4E4">Documented, conventionally structured</text>
+      <text x="876.0" y="316" font-size="15" fill="#A9C4E4">code your team can pick up on day one.</text>
+    </g>
+  </g>
+  <rect x=".75" y=".75" width="1278.5" height="400.5" rx="27.5" fill="none" stroke="#59C7FF" stroke-opacity=".18" stroke-width="1.5"/>
+</svg>

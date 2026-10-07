@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="120" viewBox="0 0 1280 120" role="img" aria-label="Our stack">
+  <style>
+    text { font-family: Inter, "Segoe UI", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; }
+    .rise { opacity: 0; animation: rise .9s cubic-bezier(.22,1,.36,1) forwards; }
+    .pulse { animation: pulse 6s ease-in-out infinite; }
+    @keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+    @keyframes pulse { 0%,100% { opacity: .5; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .rise { animation: none; opacity: 1; } .pulse { animation: none; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#087CF0"/><stop offset="55%" stop-color="#299EFF"/><stop offset="100%" stop-color="#59C7FF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.92" cy="0" r="0.75">
+      <stop offset="0%" stop-color="#087CF0" stop-opacity=".42"/><stop offset="100%" stop-color="#087CF0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A2347"/><stop offset="100%" stop-color="#061530"/>
+    </linearGradient>
+    <linearGradient id="topLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#59C7FF" stop-opacity="0"/><stop offset="50%" stop-color="#59C7FF" stop-opacity=".7"/><stop offset="100%" stop-color="#59C7FF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.1" fill="#7FD0FF"/></pattern>
+    <clipPath id="panel"><rect width="1280" height="120" rx="28"/></clipPath>
+    
+  </defs>
+  <g clip-path="url(#panel)">
+    <rect width="1280" height="120" fill="#020B1C"/>
+    <rect width="1280" height="120" fill="url(#glow)" class="pulse"/>
+    <rect width="1280" height="120" fill="url(#dots)" opacity=".07"/>
+    <g class="rise">
+      <rect x="56" y="44" width="22" height="3" rx="1.5" fill="url(#brand)"/>
+      <text x="88" y="51" font-size="13" font-weight="700" letter-spacing="4" fill="#59C7FF">OUR STACK</text>
+      <text x="56" y="92" font-size="36" font-weight="700" letter-spacing="-1" fill="#FFFFFF">Tools we ship with</text>
+    </g>
+  </g>
+  <rect x=".75" y=".75" width="1278.5" height="118.5" rx="27.5" fill="none" stroke="#59C7FF" stroke-opacity=".18" stroke-width="1.5"/>
+</svg>

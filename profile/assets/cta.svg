@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="250" viewBox="0 0 1280 250" role="img" aria-label="Have an idea worth building? Email hello@nexaturn.com">
+  <style>
+    text { font-family: Inter, "Segoe UI", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; }
+    .rise { opacity: 0; animation: rise .9s cubic-bezier(.22,1,.36,1) forwards; }
+    .pulse { animation: pulse 6s ease-in-out infinite; }
+    @keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+    @keyframes pulse { 0%,100% { opacity: .5; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .rise { animation: none; opacity: 1; } .pulse { animation: none; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#087CF0"/><stop offset="55%" stop-color="#299EFF"/><stop offset="100%" stop-color="#59C7FF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.92" cy="0" r="0.75">
+      <stop offset="0%" stop-color="#087CF0" stop-opacity=".42"/><stop offset="100%" stop-color="#087CF0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A2347"/><stop offset="100%" stop-color="#061530"/>
+    </linearGradient>
+    <linearGradient id="topLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#59C7FF" stop-opacity="0"/><stop offset="50%" stop-color="#59C7FF" stop-opacity=".7"/><stop offset="100%" stop-color="#59C7FF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.1" fill="#7FD0FF"/></pattern>
+    <clipPath id="panel"><rect width="1280" height="250" rx="28"/></clipPath>
+    <linearGradient id="ctaFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#087CF0"/><stop offset="60%" stop-color="#0A3A76"/><stop offset="100%" stop-color="#020B1C"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#panel)">
+    <rect width="1280" height="250" fill="#020B1C"/>
+    <rect width="1280" height="250" fill="url(#glow)" class="pulse"/>
+    <rect width="1280" height="250" fill="url(#dots)" opacity=".07"/>
+    <rect width="1280" height="250" fill="url(#ctaFill)" opacity=".85"/>
+    <g transform="translate(980 -40) scale(9)" opacity=".12"><path d="M3 3h7.2l11.6 15.6V3H29v26h-7.2L10.2 13.4V29H3V3Z" fill="#FFFFFF"/></g>
+    <g class="rise">
+      <text x="64" y="98" font-size="42" font-weight="700" letter-spacing="-1.2" fill="#FFFFFF">Have an idea worth building?</text>
+      <text x="64" y="138" font-size="20" fill="#D6EAFF">Let’s turn it into a product — from first sketch to launch and beyond.</text>
+    </g>
+    <g class="rise" style="animation-delay:.2s">
+      <rect x="64" y="166" width="262" height="50" rx="25" fill="#FFFFFF"/>
+      <text x="92" y="197" font-size="17" font-weight="700" fill="#020B1C">hello@nexaturn.com</text>
+      <text x="296" y="197" font-size="18" font-weight="700" fill="#087CF0">→</text>
+    </g>
+  </g>
+  <rect x=".75" y=".75" width="1278.5" height="248.5" rx="27.5" fill="none" stroke="#59C7FF" stroke-opacity=".18" stroke-width="1.5"/>
+</svg>

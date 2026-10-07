@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="Built by Nexaturn: Kheliyo — book sports courts and find players across Pakistan">
+  <style>
+    text { font-family: Inter, "Segoe UI", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; }
+    .rise { opacity: 0; animation: rise .9s cubic-bezier(.22,1,.36,1) forwards; }
+    .pulse { animation: pulse 6s ease-in-out infinite; }
+    @keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+    @keyframes pulse { 0%,100% { opacity: .5; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .rise { animation: none; opacity: 1; } .pulse { animation: none; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#087CF0"/><stop offset="55%" stop-color="#299EFF"/><stop offset="100%" stop-color="#59C7FF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.92" cy="0" r="0.75">
+      <stop offset="0%" stop-color="#087CF0" stop-opacity=".42"/><stop offset="100%" stop-color="#087CF0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A2347"/><stop offset="100%" stop-color="#061530"/>
+    </linearGradient>
+    <linearGradient id="topLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#59C7FF" stop-opacity="0"/><stop offset="50%" stop-color="#59C7FF" stop-opacity=".7"/><stop offset="100%" stop-color="#59C7FF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.1" fill="#7FD0FF"/></pattern>
+    <clipPath id="panel"><rect width="1280" height="360" rx="28"/></clipPath>
+    
+  </defs>
+  <g clip-path="url(#panel)">
+    <rect width="1280" height="360" fill="#020B1C"/>
+    <rect width="1280" height="360" fill="url(#glow)" class="pulse"/>
+    <rect width="1280" height="360" fill="url(#dots)" opacity=".07"/>
+    <g class="rise">
+      <rect x="56" y="46" width="22" height="3" rx="1.5" fill="url(#brand)"/>
+      <text x="88" y="53" font-size="13" font-weight="700" letter-spacing="4" fill="#59C7FF">BUILT BY NEXATURN</text>
+      <text x="56" y="94" font-size="36" font-weight="700" letter-spacing="-1" fill="#FFFFFF">Kheliyo</text>
+    </g>
+    <g class="rise" style="animation-delay:.15s">
+      <text x="56" y="150" font-size="17" fill="#C4D8F0">Book sports courts and find players across Pakistan.</text>
+      <text x="56" y="177" font-size="17" fill="#C4D8F0">Search venues, pick a court and a slot, book in seconds</text>
+      <text x="56" y="204" font-size="17" fill="#C4D8F0">and pay at the venue. Host or join pickup games, and</text>
+      <text x="56" y="231" font-size="17" fill="#C4D8F0">help venue owners fill their empty hours.</text>
+      <rect x="56" y="276" width="85" height="30" rx="15" fill="#087CF0" fill-opacity=".14" stroke="#59C7FF" stroke-opacity=".35"/>
+      <text x="99" y="296" text-anchor="middle" font-size="13" font-weight="600" fill="#D6EAFF">Next.js</text>
+      <rect x="151.39999999999998" y="276" width="77" height="30" rx="15" fill="#087CF0" fill-opacity=".14" stroke="#59C7FF" stroke-opacity=".35"/>
+      <text x="190" y="296" text-anchor="middle" font-size="13" font-weight="600" fill="#D6EAFF">NestJS</text>
+      <rect x="238.59999999999997" y="276" width="110" height="30" rx="15" fill="#087CF0" fill-opacity=".14" stroke="#59C7FF" stroke-opacity=".35"/>
+      <text x="294" y="296" text-anchor="middle" font-size="13" font-weight="600" fill="#D6EAFF">PostgreSQL</text>
+      <rect x="358.59999999999997" y="276" width="77" height="30" rx="15" fill="#087CF0" fill-opacity=".14" stroke="#59C7FF" stroke-opacity=".35"/>
+      <text x="397" y="296" text-anchor="middle" font-size="13" font-weight="600" fill="#D6EAFF">Prisma</text>
+      <rect x="445.79999999999995" y="276" width="102" height="30" rx="15" fill="#087CF0" fill-opacity=".14" stroke="#59C7FF" stroke-opacity=".35"/>
+      <text x="497" y="296" text-anchor="middle" font-size="13" font-weight="600" fill="#D6EAFF">Gemini AI</text>
+    </g>
+    <g class="rise" style="animation-delay:.3s">
+      <rect x="790" y="56" width="430" height="248" rx="18" fill="#0A2347" stroke="#59C7FF" stroke-opacity=".25"/>
+      <g fill="none" stroke="#59C7FF" stroke-opacity=".55" stroke-width="2">
+        <rect x="816" y="82" width="378" height="196" rx="4"/>
+        <path d="M1005.0 82V278"/>
+        <circle cx="1005.0" cy="180.0" r="38"/>
+        <rect x="816" y="128.0" width="58" height="104"/>
+        <rect x="1136" y="128.0" width="58" height="104"/>
+      </g>
+      <circle cx="1005.0" cy="180.0" r="4" fill="#59C7FF"/>
+      <g>
+        <circle r="9" fill="#D5F04A">
+          <animateMotion dur="7s" repeatCount="indefinite" path="M900 126 Q1005 76 1120 216 T900 126"/>
+        </circle>
+      </g>
+      <rect x="1070" y="286" width="132" height="34" rx="17" fill="url(#brand)"/>
+      <text x="1136" y="308" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">Slot booked ✓</text>
+    </g>
+  </g>
+  <rect x=".75" y=".75" width="1278.5" height="358.5" rx="27.5" fill="none" stroke="#59C7FF" stroke-opacity=".18" stroke-width="1.5"/>
+</svg>

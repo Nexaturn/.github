@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="670" viewBox="0 0 1280 670" role="img" aria-label="What we build: Web Development, Mobile Apps, UI/UX Design, AI &amp; Automation, DevOps &amp; Cloud, SaaS Products, QA &amp; Testing, Dedicated Teams">
+  <style>
+    text { font-family: Inter, "Segoe UI", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; }
+    .rise { opacity: 0; animation: rise .9s cubic-bezier(.22,1,.36,1) forwards; }
+    .pulse { animation: pulse 6s ease-in-out infinite; }
+    @keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+    @keyframes pulse { 0%,100% { opacity: .5; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .rise { animation: none; opacity: 1; } .pulse { animation: none; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#087CF0"/><stop offset="55%" stop-color="#299EFF"/><stop offset="100%" stop-color="#59C7FF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.92" cy="0" r="0.75">
+      <stop offset="0%" stop-color="#087CF0" stop-opacity=".42"/><stop offset="100%" stop-color="#087CF0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A2347"/><stop offset="100%" stop-color="#061530"/>
+    </linearGradient>
+    <linearGradient id="topLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#59C7FF" stop-opacity="0"/><stop offset="50%" stop-color="#59C7FF" stop-opacity=".7"/><stop offset="100%" stop-color="#59C7FF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.1" fill="#7FD0FF"/></pattern>
+    <clipPath id="panel"><rect width="1280" height="670" rx="28"/></clipPath>
+    
+  </defs>
+  <g clip-path="url(#panel)">
+    <rect width="1280" height="670" fill="#020B1C"/>
+    <rect width="1280" height="670" fill="url(#glow)" class="pulse"/>
+    <rect width="1280" height="670" fill="url(#dots)" opacity=".07"/>
+    <g class="rise">
+      <rect x="56" y="46" width="22" height="3" rx="1.5" fill="url(#brand)"/>
+      <text x="88" y="53" font-size="13" font-weight="700" letter-spacing="4" fill="#59C7FF">WHAT WE BUILD</text>
+      <text x="56" y="94" font-size="36" font-weight="700" letter-spacing="-1" fill="#FFFFFF">End-to-end product engineering</text>
+    </g>
+    <g class="rise" style="animation-delay:0.12s">
+      <rect x="56.0" y="150" width="277.0" height="222" rx="20" fill="url(#cardFill)" stroke="#59C7FF" stroke-opacity=".16"/>
+      <rect x="80.0" y="150" width="229.0" height="1.5" fill="url(#topLine)"/>
+      <rect x="80.0" y="176" width="48" height="48" rx="14" fill="#087CF0" fill-opacity=".16" stroke="#59C7FF" stroke-opacity=".3"/>
+      <g transform="translate(92.0 188)" fill="none" stroke="#59C7FF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/></g>
+      <text x="309.0" y="200" text-anchor="end" font-size="13" font-weight="700" letter-spacing="2" fill="#59C7FF" fill-opacity=".45">01</text>
+      <text x="80.0" y="262" font-size="20" font-weight="650" fill="#FFFFFF">Web Development</text>
+      <text x="80.0" y="292" font-size="15" fill="#A9C4E4">Product web apps and content</text>
+      <text x="80.0" y="314" font-size="15" fill="#A9C4E4">platforms, typed end to end</text>
+      <text x="80.0" y="336" font-size="15" fill="#A9C4E4">and tuned on real field data.</text>
+    </g>
+    <g class="rise" style="animation-delay:0.19s">
+      <rect x="353.0" y="150" width="277.0" height="222" rx="20" fill="url(#cardFill)" stroke="#59C7FF" stroke-opacity=".16"/>
+      <rect x="377.0" y="150" width="229.0" height="1.5" fill="url(#topLine)"/>
+      <rect x="377.0" y="176" width="48" height="48" rx="14" fill="#087CF0" fill-opacity=".16" stroke="#59C7FF" stroke-opacity=".3"/>
+      <g transform="translate(389.0 188)" fill="none" stroke="#59C7FF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M11 18h2"/></g>
+      <text x="606.0" y="200" text-anchor="end" font-size="13" font-weight="700" letter-spacing="2" fill="#59C7FF" fill-opacity=".45">02</text>
+      <text x="377.0" y="262" font-size="20" font-weight="650" fill="#FFFFFF">Mobile Apps</text>
+      <text x="377.0" y="292" font-size="15" fill="#A9C4E4">One React Native or Flutter</text>
+      <text x="377.0" y="314" font-size="15" fill="#A9C4E4">codebase for iOS and Android,</text>
+      <text x="377.0" y="336" font-size="15" fill="#A9C4E4">shipped through store review.</text>
+    </g>
+    <g class="rise" style="animation-delay:0.26s">
+      <rect x="650.0" y="150" width="277.0" height="222" rx="20" fill="url(#cardFill)" stroke="#59C7FF" stroke-opacity=".16"/>
+      <rect x="674.0" y="150" width="229.0" height="1.5" fill="url(#topLine)"/>
+      <rect x="674.0" y="176" width="48" height="48" rx="14" fill="#087CF0" fill-opacity=".16" stroke="#59C7FF" stroke-opacity=".3"/>
+      <g transform="translate(686.0 188)" fill="none" stroke="#59C7FF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l6.5 7.5L12 21 5.5 10.5z"/><circle cx="12" cy="10.5" r="1.7"/><path d="M12 12.2V21"/></g>
+      <text x="903.0" y="200" text-anchor="end" font-size="13" font-weight="700" letter-spacing="2" fill="#59C7FF" fill-opacity=".45">03</text>
+      <text x="674.0" y="262" font-size="20" font-weight="650" fill="#FFFFFF">UI/UX Design</text>
+      <text x="674.0" y="292" font-size="15" fill="#A9C4E4">Research, flows and design</text>
+      <text x="674.0" y="314" font-size="15" fill="#A9C4E4">systems, handed over in Figma</text>
+      <text x="674.0" y="336" font-size="15" fill="#A9C4E4">and in code.</text>
+    </g>
+    <g class="rise" style="animation-delay:0.33s">
+      <rect x="947.0" y="150" width="277.0" height="222" rx="20" fill="url(#cardFill)" stroke="#59C7FF" stroke-opacity=".16"/>
+      <rect x="971.0" y="150" width="229.0" height="1.5" fill="url(#topLine)"/>
+      <rect x="971.0" y="176" width="48" height="48" rx="14" fill="#087CF0" fill-opacity=".16" stroke="#59C7FF" stroke-opacity=".3"/>
+      <g transform="translate(983.0 188)" fill="none" stroke="#59C7FF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.1 6.9L21 12l-6.9 2.1L12 21l-2.1-6.9L3 12l6.9-2.1z"/></g>
+      <text x="1200.0" y="200" text-anchor="end" font-size="13" font-weight="700" letter-spacing="2" fill="#59C7FF" fill-opacity=".45">04</text>
+      <text x="971.0" y="262" font-size="20" font-weight="650" fill="#FFFFFF">AI &amp; Automation</text>
+      <text x="971.0" y="292" font-size="15" fill="#A9C4E4">LLM features, assistants and</text>
+      <text x="971.0" y="314" font-size="15" fill="#A9C4E4">workflow automation that earn</text>
+      <text x="971.0" y="336" font-size="15" fill="#A9C4E4">their place in the product.</text>
+    </g>
+    <g class="rise" style="animation-delay:0.40s">
+      <rect x="56.0" y="392" width="277.0" height="222" rx="20" fill="url(#cardFill)" stroke="#59C7FF" stroke-opacity=".16"/>
+      <rect x="80.0" y="392" width="229.0" height="1.5" fill="url(#topLine)"/>
+      <rect x="80.0" y="418" width="48" height="48" rx="14" fill="#087CF0" fill-opacity=".16" stroke="#59C7FF" stroke-opacity=".3"/>
+      <g transform="translate(92.0 430)" fill="none" stroke="#59C7FF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 19h10.5a4 4 0 0 0 .4-7.98A6 6 0 0 0 6.3 10.3 4.4 4.4 0 0 0 7 19z"/></g>
+      <text x="309.0" y="442" text-anchor="end" font-size="13" font-weight="700" letter-spacing="2" fill="#59C7FF" fill-opacity=".45">05</text>
+      <text x="80.0" y="504" font-size="20" font-weight="650" fill="#FFFFFF">DevOps &amp; Cloud</text>
+      <text x="80.0" y="534" font-size="15" fill="#A9C4E4">Infrastructure as code, CI/CD</text>
+      <text x="80.0" y="556" font-size="15" fill="#A9C4E4">and observability that keep</text>
+      <text x="80.0" y="578" font-size="15" fill="#A9C4E4">releases boring.</text>
+    </g>
+    <g class="rise" style="animation-delay:0.47s">
+      <rect x="353.0" y="392" width="277.0" height="222" rx="20" fill="url(#cardFill)" stroke="#59C7FF" stroke-opacity=".16"/>
+      <rect x="377.0" y="392" width="229.0" height="1.5" fill="url(#topLine)"/>
+      <rect x="377.0" y="418" width="48" height="48" rx="14" fill="#087CF0" fill-opacity=".16" stroke="#59C7FF" stroke-opacity=".3"/>
+      <g transform="translate(389.0 430)" fill="none" stroke="#59C7FF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 12.5l9 5 9-5"/><path d="M3 16.5l9 5 9-5"/></g>
+      <text x="606.0" y="442" text-anchor="end" font-size="13" font-weight="700" letter-spacing="2" fill="#59C7FF" fill-opacity=".45">06</text>
+      <text x="377.0" y="504" font-size="20" font-weight="650" fill="#FFFFFF">SaaS Products</text>
+      <text x="377.0" y="534" font-size="15" fill="#A9C4E4">Multi-tenant platforms with</text>
+      <text x="377.0" y="556" font-size="15" fill="#A9C4E4">auth, billing and admin, from</text>
+      <text x="377.0" y="578" font-size="15" fill="#A9C4E4">first idea to launch.</text>
+    </g>
+    <g class="rise" style="animation-delay:0.54s">
+      <rect x="650.0" y="392" width="277.0" height="222" rx="20" fill="url(#cardFill)" stroke="#59C7FF" stroke-opacity=".16"/>
+      <rect x="674.0" y="392" width="229.0" height="1.5" fill="url(#topLine)"/>
+      <rect x="674.0" y="418" width="48" height="48" rx="14" fill="#087CF0" fill-opacity=".16" stroke="#59C7FF" stroke-opacity=".3"/>
+      <g transform="translate(686.0 430)" fill="none" stroke="#59C7FF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5l8 3v6.2c0 4.6-3.4 8.3-8 9.8-4.6-1.5-8-5.2-8-9.8V5.5z"/><path d="M8.5 12l2.5 2.5 4.6-5"/></g>
+      <text x="903.0" y="442" text-anchor="end" font-size="13" font-weight="700" letter-spacing="2" fill="#59C7FF" fill-opacity=".45">07</text>
+      <text x="674.0" y="504" font-size="20" font-weight="650" fill="#FFFFFF">QA &amp; Testing</text>
+      <text x="674.0" y="534" font-size="15" fill="#A9C4E4">Automated end-to-end, API and</text>
+      <text x="674.0" y="556" font-size="15" fill="#A9C4E4">device testing built into the</text>
+      <text x="674.0" y="578" font-size="15" fill="#A9C4E4">delivery pipeline.</text>
+    </g>
+    <g class="rise" style="animation-delay:0.61s">
+      <rect x="947.0" y="392" width="277.0" height="222" rx="20" fill="url(#cardFill)" stroke="#59C7FF" stroke-opacity=".16"/>
+      <rect x="971.0" y="392" width="229.0" height="1.5" fill="url(#topLine)"/>
+      <rect x="971.0" y="418" width="48" height="48" rx="14" fill="#087CF0" fill-opacity=".16" stroke="#59C7FF" stroke-opacity=".3"/>
+      <g transform="translate(983.0 430)" fill="none" stroke="#59C7FF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.4 2.7-6 6-6s6 2.6 6 6"/><circle cx="17" cy="9" r="2.5"/><path d="M16.2 14.1c2.8.4 4.8 2.8 4.8 5.9"/></g>
+      <text x="1200.0" y="442" text-anchor="end" font-size="13" font-weight="700" letter-spacing="2" fill="#59C7FF" fill-opacity=".45">08</text>
+      <text x="971.0" y="504" font-size="20" font-weight="650" fill="#FFFFFF">Dedicated Teams</text>
+      <text x="971.0" y="534" font-size="15" fill="#A9C4E4">Engineers, designers and QA</text>
+      <text x="971.0" y="556" font-size="15" fill="#A9C4E4">who plug into your roadmap</text>
+      <text x="971.0" y="578" font-size="15" fill="#A9C4E4">and ship alongside you.</text>
+    </g>
+  </g>
+  <rect x=".75" y=".75" width="1278.5" height="668.5" rx="27.5" fill="none" stroke="#59C7FF" stroke-opacity=".18" stroke-width="1.5"/>
+</svg>
