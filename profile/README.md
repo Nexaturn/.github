@@ -102,7 +102,7 @@
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,nextjs,ts,tailwind,nodejs,nestjs,py,fastapi,graphql,flutter&theme=dark" alt="React, Next.js, TypeScript, Tailwind CSS, Node.js, NestJS, Python, FastAPI, GraphQL, Flutter">
   <br>
-  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform,postgres,mongodb,redis,firebase,figma,stripe&theme=dark" alt="AWS, Docker, Kubernetes, Terraform, PostgreSQL, MongoDB, Redis, Firebase, Figma, Stripe">
+  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform,postgres,mongodb,redis,firebase,figma&theme=dark" alt="AWS, Docker, Kubernetes, Terraform, PostgreSQL, MongoDB, Redis, Firebase, Figma">
 </p>
 
 <br>
